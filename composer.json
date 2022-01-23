@@ -1,0 +1,32 @@
+{
+    "name": "fangchaogang/kam-php",
+    "description": "可爱猫 PHP SDK",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "fangchaogang",
+            "homepage": "https://github.com/fangchaogang"
+        }
+    ],
+    "require": {
+        "php": "7.*",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": { "Kam\\" : "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Kam\\Tests\\" : "tests/" }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        }
+    }
+}

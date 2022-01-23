@@ -1,0 +1,10 @@
+/vendor
+/.idea
+/.vscode
+/composer.lock
+Homestead.json
+Homestead.yaml
+.env
+.DS_Store
+.php_cs.cache
+.phpstorm.meta.php

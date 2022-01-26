@@ -1,7 +1,7 @@
 {
     "name": "fangchaogang/kam-php",
     "description": "可爱猫 PHP SDK",
-    "license": "proprietary",
+    "license": "MIT",
     "authors": [
         {
             "name": "fangchaogang",
